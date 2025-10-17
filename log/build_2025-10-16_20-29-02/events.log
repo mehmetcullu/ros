@@ -1,0 +1,30 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (-) JobUnselected: {'identifier': 'ros_c'}
+[0.000110] (ros_python) JobQueued: {'identifier': 'ros_python', 'dependencies': OrderedDict()}
+[0.000122] (ros_python) JobStarted: {'identifier': 'ros_python'}
+[0.099775] (-) TimerEvent: {}
+[0.203221] (-) TimerEvent: {}
+[0.209113] (ros_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_python', 'build', '--build-base', '/home/murtazam/ros2_ws/build/ros_python/build', 'install', '--record', '/home/murtazam/ros2_ws/build/ros_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/murtazam/ros2_ws/src/ros_python', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'murtazam', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/murtazam', 'OLDPWD': '/home/murtazam/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1371', 'SYSTEMD_EXEC_PID': '1478', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5935', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'murtazam', 'JOURNAL_STREAM': '8:27392', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'murtazam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-ros:@/tmp/.ICE-unix/1457,unix/ubuntu-ros:/tmp/.ICE-unix/1457', 'INVOCATION_ID': 'b91d2988308f4ca6ae0dc55fb4c09e6a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0XXLE3', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e34a3be4-4bb2-40f0-9fbf-8e02e70dff28', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/murtazam/ros2_ws/build/ros_python', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/murtazam/ros2_ws/build/ros_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/murtazam/ros2_ws/install/ros_python/lib/python3.10/site-packages:'}, 'shell': False}
+[0.284744] (ros_python) StdoutLine: {'line': b'running egg_info\n'}
+[0.284940] (ros_python) StdoutLine: {'line': b'writing ../../build/ros_python/ros_python.egg-info/PKG-INFO\n'}
+[0.285142] (ros_python) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_python/ros_python.egg-info/dependency_links.txt\n'}
+[0.285335] (ros_python) StdoutLine: {'line': b'writing entry points to ../../build/ros_python/ros_python.egg-info/entry_points.txt\n'}
+[0.285381] (ros_python) StdoutLine: {'line': b'writing requirements to ../../build/ros_python/ros_python.egg-info/requires.txt\n'}
+[0.285489] (ros_python) StdoutLine: {'line': b'writing top-level names to ../../build/ros_python/ros_python.egg-info/top_level.txt\n'}
+[0.286299] (ros_python) StdoutLine: {'line': b"reading manifest file '../../build/ros_python/ros_python.egg-info/SOURCES.txt'\n"}
+[0.286686] (ros_python) StdoutLine: {'line': b"writing manifest file '../../build/ros_python/ros_python.egg-info/SOURCES.txt'\n"}
+[0.286849] (ros_python) StdoutLine: {'line': b'running build\n'}
+[0.286890] (ros_python) StdoutLine: {'line': b'running build_py\n'}
+[0.286976] (ros_python) StdoutLine: {'line': b'running install\n'}
+[0.287098] (ros_python) StdoutLine: {'line': b'running install_lib\n'}
+[0.287511] (ros_python) StdoutLine: {'line': b'running install_data\n'}
+[0.287590] (ros_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.288245] (ros_python) StdoutLine: {'line': b"removing '/home/murtazam/ros2_ws/install/ros_python/lib/python3.10/site-packages/ros_python-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.288379] (ros_python) StdoutLine: {'line': b'Copying ../../build/ros_python/ros_python.egg-info to /home/murtazam/ros2_ws/install/ros_python/lib/python3.10/site-packages/ros_python-0.0.0-py3.10.egg-info\n'}
+[0.288657] (ros_python) StdoutLine: {'line': b'running install_scripts\n'}
+[0.296508] (ros_python) StdoutLine: {'line': b'Installing publisher script to /home/murtazam/ros2_ws/install/ros_python/lib/ros_python\n'}
+[0.296748] (ros_python) StdoutLine: {'line': b"writing list of installed files to '/home/murtazam/ros2_ws/build/ros_python/install.log'\n"}
+[0.304788] (-) TimerEvent: {}
+[0.306409] (ros_python) CommandEnded: {'returncode': 0}
+[0.311635] (ros_python) JobEnded: {'identifier': 'ros_python', 'rc': 0}
+[0.311996] (-) EventReactorShutdown: {}

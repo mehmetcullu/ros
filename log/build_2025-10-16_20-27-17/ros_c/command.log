@@ -1,0 +1,4 @@
+Invoking command in '/home/murtazam/ros2_ws/build/ros_c': /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_c -- -j5 -l5
+Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_c -- -j5 -l5
+Invoking command in '/home/murtazam/ros2_ws/build/ros_c': /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_c
+Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_c

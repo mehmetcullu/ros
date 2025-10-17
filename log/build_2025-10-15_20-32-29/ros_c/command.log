@@ -1,0 +1,6 @@
+Invoking command in '/home/murtazam/ros2_ws/build/ros_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/murtazam/ros2_ws/src/ros_c -DCMAKE_INSTALL_PREFIX=/home/murtazam/ros2_ws/install/ros_c
+Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/murtazam/ros2_ws/src/ros_c -DCMAKE_INSTALL_PREFIX=/home/murtazam/ros2_ws/install/ros_c
+Invoking command in '/home/murtazam/ros2_ws/build/ros_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_c -- -j5 -l5
+Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_c -- -j5 -l5
+Invoking command in '/home/murtazam/ros2_ws/build/ros_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_c
+Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_c

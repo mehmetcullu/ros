@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/murtazam/ros2_ws/build/ros_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_c -- -j5 -l5
+[0.118s] Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_c -- -j5 -l5
+[0.121s] Invoking command in '/home/murtazam/ros2_ws/build/ros_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_c
+[0.124s] -- Install configuration: ""
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ament_index/resource_index/package_run_dependencies/ros_c
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ament_index/resource_index/parent_prefix_path/ros_c
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/environment/path.sh
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/environment/path.dsv
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/local_setup.bash
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/local_setup.sh
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/local_setup.zsh
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/local_setup.dsv
+[0.124s] -- Installing: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/package.dsv
+[0.124s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ament_index/resource_index/packages/ros_c
+[0.125s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/cmake/ros_cConfig.cmake
+[0.125s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/cmake/ros_cConfig-version.cmake
+[0.125s] -- Up-to-date: /home/murtazam/ros2_ws/install/ros_c/share/ros_c/package.xml
+[0.125s] Invoked command in '/home/murtazam/ros2_ws/build/ros_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_c
