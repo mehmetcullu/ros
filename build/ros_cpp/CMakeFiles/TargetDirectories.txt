@@ -1,0 +1,11 @@
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/uninstall.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/ros_cpp_uninstall.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/publisher.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/subscriber.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/test.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/edit_cache.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/rebuild_cache.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/list_install_components.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/install.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/install/local.dir
+/home/murtazam/ros2_ws/build/ros_cpp/CMakeFiles/install/strip.dir

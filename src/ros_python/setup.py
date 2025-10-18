@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher = ros_python.publisher:main',
-            'subscriber = ros_python.subscriber:main'
+            'subscriber = ros_python.subscriber:main',
+            'parameter = ros_python.parameter:main'
         ],
     },
 )

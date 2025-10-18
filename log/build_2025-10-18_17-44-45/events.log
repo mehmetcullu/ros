@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (-) JobUnselected: {'identifier': 'bot_description'}
+[0.000169] (-) JobUnselected: {'identifier': 'ros_python'}
+[0.000181] (ros_cpp) JobQueued: {'identifier': 'ros_cpp', 'dependencies': OrderedDict()}
+[0.000201] (ros_cpp) JobStarted: {'identifier': 'ros_cpp'}
+[0.004624] (ros_cpp) JobProgress: {'identifier': 'ros_cpp', 'progress': 'cmake'}
+[0.004972] (ros_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/murtazam/ros2_ws/src/ros_cpp', '-DCMAKE_INSTALL_PREFIX=/home/murtazam/ros2_ws/install/ros_cpp'], 'cwd': '/home/murtazam/ros2_ws/build/ros_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'murtazam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/murtazam'), ('OLDPWD', '/home/murtazam/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1348'), ('SYSTEMD_EXEC_PID', '1457'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/murtazam/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'murtazam'), ('JOURNAL_STREAM', '8:28796'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'murtazam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-ros:@/tmp/.ICE-unix/1436,unix/ubuntu-ros:/tmp/.ICE-unix/1436'), ('INVOCATION_ID', 'b0669696c58641a08d206d0672f1c2e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NU1KE3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/murtazam/ros2_ws/install/ros_python:/home/murtazam/ros2_ws/install/ros_cpp:/home/murtazam/ros2_ws/install/bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0c51c0de-4d4a-48cd-9320-9368f6dc8181'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/murtazam/ros2_ws/build/ros_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/murtazam/ros2_ws/build/ros_python:/home/murtazam/ros2_ws/install/ros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/murtazam/ros2_ws/install/ros_cpp:/home/murtazam/ros2_ws/install/bot_description:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble')]), 'shell': False}
+[0.033462] (ros_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.057676] (ros_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.060659] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.086405] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.089696] (ros_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.089872] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.090097] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.091473] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.099501] (-) TimerEvent: {}
+[0.121549] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.125034] (ros_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.125190] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.125477] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.129033] (ros_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.190366] (ros_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.199572] (-) TimerEvent: {}
+[0.226717] (ros_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.245690] (ros_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.247857] (ros_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.251500] (ros_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.257180] (ros_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.264198] (ros_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.283319] (ros_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.284449] (ros_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299640] (-) TimerEvent: {}
+[0.315605] (ros_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.330377] (ros_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.350305] (ros_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.354637] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.381488] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.381740] (ros_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.399767] (-) TimerEvent: {}
+[0.409585] (ros_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.410223] (ros_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.435690] (ros_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.469667] (ros_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.470182] (ros_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.470616] (ros_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.470664] (ros_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.470958] (ros_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.471008] (ros_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.471247] (ros_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.471636] (ros_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.471675] (ros_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.471819] (ros_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.472277] (ros_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.477411] (ros_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.479609] (ros_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/murtazam/ros2_ws/build/ros_cpp\n'}
+[0.483942] (ros_cpp) CommandEnded: {'returncode': 0}
+[0.487472] (ros_cpp) JobProgress: {'identifier': 'ros_cpp', 'progress': 'build'}
+[0.487527] (ros_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/murtazam/ros2_ws/build/ros_cpp', '--', '-j5', '-l5'], 'cwd': '/home/murtazam/ros2_ws/build/ros_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'murtazam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/murtazam'), ('OLDPWD', '/home/murtazam/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1348'), ('SYSTEMD_EXEC_PID', '1457'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/murtazam/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'murtazam'), ('JOURNAL_STREAM', '8:28796'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'murtazam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-ros:@/tmp/.ICE-unix/1436,unix/ubuntu-ros:/tmp/.ICE-unix/1436'), ('INVOCATION_ID', 'b0669696c58641a08d206d0672f1c2e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NU1KE3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/murtazam/ros2_ws/install/ros_python:/home/murtazam/ros2_ws/install/ros_cpp:/home/murtazam/ros2_ws/install/bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0c51c0de-4d4a-48cd-9320-9368f6dc8181'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/murtazam/ros2_ws/build/ros_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/murtazam/ros2_ws/build/ros_python:/home/murtazam/ros2_ws/install/ros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/murtazam/ros2_ws/install/ros_cpp:/home/murtazam/ros2_ws/install/bot_description:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble')]), 'shell': False}
+[0.499878] (-) TimerEvent: {}
+[0.504768] (ros_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.504840] (ros_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.600590] (-) TimerEvent: {}
+[0.701664] (-) TimerEvent: {}
+[0.802583] (-) TimerEvent: {}
+[0.902803] (-) TimerEvent: {}
+[1.003019] (-) TimerEvent: {}
+[1.103243] (-) TimerEvent: {}
+[1.203478] (-) TimerEvent: {}
+[1.304933] (-) TimerEvent: {}
+[1.406756] (-) TimerEvent: {}
+[1.507380] (-) TimerEvent: {}
+[1.609294] (-) TimerEvent: {}
+[1.710611] (-) TimerEvent: {}
+[1.814290] (-) TimerEvent: {}
+[1.914668] (-) TimerEvent: {}
+[2.014875] (-) TimerEvent: {}
+[2.117151] (-) TimerEvent: {}
+[2.217700] (-) TimerEvent: {}
+[2.317996] (-) TimerEvent: {}
+[2.319980] (ros_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[2.407330] (ros_cpp) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[2.418876] (-) TimerEvent: {}
+[2.519062] (-) TimerEvent: {}
+[2.621081] (-) TimerEvent: {}
+[2.722123] (-) TimerEvent: {}
+[2.822331] (-) TimerEvent: {}
+[2.923030] (-) TimerEvent: {}
+[3.027686] (-) TimerEvent: {}
+[3.129003] (-) TimerEvent: {}
+[3.233481] (-) TimerEvent: {}
+[3.334566] (-) TimerEvent: {}
+[3.435294] (-) TimerEvent: {}
+[3.537131] (-) TimerEvent: {}
+[3.641852] (-) TimerEvent: {}
+[3.696897] (ros_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[3.742557] (-) TimerEvent: {}
+[3.842745] (-) TimerEvent: {}
+[3.869494] (ros_cpp) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[3.873594] (ros_cpp) CommandEnded: {'returncode': 0}
+[3.874143] (ros_cpp) JobProgress: {'identifier': 'ros_cpp', 'progress': 'install'}
+[3.877287] (ros_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/murtazam/ros2_ws/build/ros_cpp'], 'cwd': '/home/murtazam/ros2_ws/build/ros_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'murtazam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/murtazam'), ('OLDPWD', '/home/murtazam/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1348'), ('SYSTEMD_EXEC_PID', '1457'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/murtazam/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'murtazam'), ('JOURNAL_STREAM', '8:28796'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'murtazam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-ros:@/tmp/.ICE-unix/1436,unix/ubuntu-ros:/tmp/.ICE-unix/1436'), ('INVOCATION_ID', 'b0669696c58641a08d206d0672f1c2e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NU1KE3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/murtazam/ros2_ws/install/ros_python:/home/murtazam/ros2_ws/install/ros_cpp:/home/murtazam/ros2_ws/install/bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0c51c0de-4d4a-48cd-9320-9368f6dc8181'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/murtazam/ros2_ws/build/ros_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/murtazam/ros2_ws/build/ros_python:/home/murtazam/ros2_ws/install/ros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/murtazam/ros2_ws/install/ros_cpp:/home/murtazam/ros2_ws/install/bot_description:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble')]), 'shell': False}
+[3.880369] (ros_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.881306] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/lib/ros_cpp/publisher\n'}
+[3.881867] (ros_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/murtazam/ros2_ws/install/ros_cpp/lib/ros_cpp/publisher" to ""\n'}
+[3.881904] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/lib/ros_cpp/subscriber\n'}
+[3.883350] (ros_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/murtazam/ros2_ws/install/ros_cpp/lib/ros_cpp/subscriber" to ""\n'}
+[3.883502] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ament_index/resource_index/package_run_dependencies/ros_cpp\n'}
+[3.883604] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ament_index/resource_index/parent_prefix_path/ros_cpp\n'}
+[3.883710] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/ament_prefix_path.sh\n'}
+[3.883745] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/ament_prefix_path.dsv\n'}
+[3.883851] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/path.sh\n'}
+[3.883999] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/path.dsv\n'}
+[3.884038] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.bash\n'}
+[3.884074] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.sh\n'}
+[3.884134] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.zsh\n'}
+[3.884175] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.dsv\n'}
+[3.884290] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/package.dsv\n'}
+[3.884319] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ament_index/resource_index/packages/ros_cpp\n'}
+[3.884417] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/cmake/ros_cppConfig.cmake\n'}
+[3.884480] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/cmake/ros_cppConfig-version.cmake\n'}
+[3.884578] (ros_cpp) StdoutLine: {'line': b'-- Installing: /home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/package.xml\n'}
+[3.885684] (ros_cpp) CommandEnded: {'returncode': 0}
+[3.892858] (ros_cpp) JobEnded: {'identifier': 'ros_cpp', 'rc': 0}
+[3.893356] (-) EventReactorShutdown: {}

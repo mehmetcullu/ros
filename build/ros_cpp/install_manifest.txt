@@ -1,0 +1,17 @@
+/home/murtazam/ros2_ws/install/ros_cpp/lib/ros_cpp/publisher
+/home/murtazam/ros2_ws/install/ros_cpp/lib/ros_cpp/subscriber
+/home/murtazam/ros2_ws/install/ros_cpp/share/ament_index/resource_index/package_run_dependencies/ros_cpp
+/home/murtazam/ros2_ws/install/ros_cpp/share/ament_index/resource_index/parent_prefix_path/ros_cpp
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/ament_prefix_path.sh
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/ament_prefix_path.dsv
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/path.sh
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/environment/path.dsv
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.bash
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.sh
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.zsh
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/local_setup.dsv
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/package.dsv
+/home/murtazam/ros2_ws/install/ros_cpp/share/ament_index/resource_index/packages/ros_cpp
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/cmake/ros_cppConfig.cmake
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/cmake/ros_cppConfig-version.cmake
+/home/murtazam/ros2_ws/install/ros_cpp/share/ros_cpp/package.xml
