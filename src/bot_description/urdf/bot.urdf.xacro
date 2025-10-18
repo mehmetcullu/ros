@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot xlmns="http://www.ros.org/wiki/xacro" name="bot">
+<robot xmlns="http://www.ros.org/wiki/xacro" name="bot">
     <link name="base_footprint"/>
     <link name="base_link">
         <visual>
@@ -13,7 +13,7 @@
     
     <joint name="base joint" type="fixed">
         <parent link="base_footprint"/>
-        <child link="base_footprint"/>
+        <child link="base_link"/>
         <origin rpy="0 0 0" xyz="0 0 0.033"/>
     </joint>
 </robot>
