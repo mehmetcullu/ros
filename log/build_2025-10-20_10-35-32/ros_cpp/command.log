@@ -1,0 +1,4 @@
+Invoking command in '/home/murtazam/ros2_ws/build/ros_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_cpp -- -j5 -l5
+Invoked command in '/home/murtazam/ros2_ws/build/ros_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/ros_cpp -- -j5 -l5
+Invoking command in '/home/murtazam/ros2_ws/build/ros_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_cpp
+Invoked command in '/home/murtazam/ros2_ws/build/ros_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/ros_cpp

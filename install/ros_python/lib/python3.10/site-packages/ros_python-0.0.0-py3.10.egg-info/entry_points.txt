@@ -1,0 +1,5 @@
+[console_scripts]
+parameter = ros_python.parameter:main
+publisher = ros_python.publisher:main
+subscriber = ros_python.subscriber:main
+
