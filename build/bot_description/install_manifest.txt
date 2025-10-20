@@ -4,8 +4,10 @@
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/wheel_left_link.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/base_link.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/caster_rear_link.STL
-/home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot.xacro
+/home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot.urdf.xacro
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot.urdf
+/home/murtazam/ros2_ws/install/bot_description/share/bot_description/rviz_model/display.rviz
+/home/murtazam/ros2_ws/install/bot_description/share/bot_description/launch/display.launch.py
 /home/murtazam/ros2_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
 /home/murtazam/ros2_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh

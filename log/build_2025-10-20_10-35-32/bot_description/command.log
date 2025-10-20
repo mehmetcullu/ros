@@ -1,6 +1,0 @@
-Invoking command in '/home/murtazam/ros2_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/murtazam/ros2_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/murtazam/ros2_ws/install/bot_description
-Invoked command in '/home/murtazam/ros2_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/murtazam/ros2_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/murtazam/ros2_ws/install/bot_description
-Invoking command in '/home/murtazam/ros2_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/bot_description -- -j5 -l5
-Invoked command in '/home/murtazam/ros2_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/bot_description -- -j5 -l5
-Invoking command in '/home/murtazam/ros2_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/bot_description
-Invoked command in '/home/murtazam/ros2_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/bot_description

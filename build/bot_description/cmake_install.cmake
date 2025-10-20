@@ -46,6 +46,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bot_description" TYPE DIRECTORY FILES
     "/home/murtazam/ros2_ws/src/bot_description/meshes"
     "/home/murtazam/ros2_ws/src/bot_description/urdf"
+    "/home/murtazam/ros2_ws/src/bot_description/rviz_model"
+    "/home/murtazam/ros2_ws/src/bot_description/launch"
     )
 endif()
 
