@@ -1,10 +1,12 @@
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/caster_front_link.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/wheel_right_link.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/imu_link.STL
+/home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/can.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/wheel_left_link.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/base_link.STL
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/meshes/caster_rear_link.STL
-/home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot.urdf.xacro
+/home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot_gazebo.xacro
+/home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot.xacro
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/urdf/bot.urdf
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/rviz_model/display.rviz
 /home/murtazam/ros2_ws/install/bot_description/share/bot_description/launch/display.launch.py
