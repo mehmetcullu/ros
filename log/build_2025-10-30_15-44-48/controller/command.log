@@ -1,0 +1,4 @@
+Invoking command in '/home/murtazam/ros2_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/controller -- -j5 -l5
+Invoked command in '/home/murtazam/ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --build /home/murtazam/ros2_ws/build/controller -- -j5 -l5
+Invoking command in '/home/murtazam/ros2_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/controller
+Invoked command in '/home/murtazam/ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/murtazam/ros2_ws/install/ros_python:/opt/ros/humble /usr/bin/cmake --install /home/murtazam/ros2_ws/build/controller
