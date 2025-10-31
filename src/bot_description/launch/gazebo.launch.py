@@ -14,7 +14,7 @@ def generate_launch_description():
     package_path = get_package_share_directory('bot_description')
     
     # Varsayılan URDF yolunu paket dizinine göre ayarla
-    default_urdf_path = os.path.join(package_path, 'urdf', 'bot.urdf')
+    default_urdf_path = os.path.join(package_path, 'urdf', 'bot.xacro')
 
     # URDF dosyasının yolunu tanımla
     model_arg = DeclareLaunchArgument(

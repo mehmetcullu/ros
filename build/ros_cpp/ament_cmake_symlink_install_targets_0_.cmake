@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mehmet/ros/build/ros_cpp/publisher" "/home/mehmet/ros/build/ros_cpp/subscriber" "TARGETS" "publisher" "subscriber" "DESTINATION" "lib/ros_cpp")

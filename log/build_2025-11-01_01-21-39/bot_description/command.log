@@ -1,0 +1,2 @@
+Invoking command in '/home/mehmet/ros/build/bot_description': /usr/bin/cmake /home/mehmet/ros/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/bot_description
+Invoked command in '/home/mehmet/ros/build/bot_description' returned '1': /usr/bin/cmake /home/mehmet/ros/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/bot_description

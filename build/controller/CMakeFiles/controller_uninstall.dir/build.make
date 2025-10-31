@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/murtazam/ros2_ws/src/controller
+CMAKE_SOURCE_DIR = /home/mehmet/ros/src/controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/murtazam/ros2_ws/build/controller
+CMAKE_BINARY_DIR = /home/mehmet/ros/build/controller
 
 # Utility rule file for controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/controller_uninstall.dir/progress.make
 
 CMakeFiles/controller_uninstall:
-	/usr/bin/cmake -P /home/murtazam/ros2_ws/build/controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/mehmet/ros/build/controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 controller_uninstall: CMakeFiles/controller_uninstall
 controller_uninstall: CMakeFiles/controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/controller_uninstall.dir/clean
 
 CMakeFiles/controller_uninstall.dir/depend:
-	cd /home/murtazam/ros2_ws/build/controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/murtazam/ros2_ws/src/controller /home/murtazam/ros2_ws/src/controller /home/murtazam/ros2_ws/build/controller /home/murtazam/ros2_ws/build/controller /home/murtazam/ros2_ws/build/controller/CMakeFiles/controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mehmet/ros/build/controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mehmet/ros/src/controller /home/mehmet/ros/src/controller /home/mehmet/ros/build/controller /home/mehmet/ros/build/controller /home/mehmet/ros/build/controller/CMakeFiles/controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/controller_uninstall.dir/depend
 
