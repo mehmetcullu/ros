@@ -3,17 +3,9 @@
 <robot name="bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <ros2_control name="Robot_System" type="system">
-        <xacro:if value="$(arg is_ignition)">
-            <hardware>
-                <plugin>ign_ros2_control/Ignitionsystem</plugin>
-            </hardware>
-        </xacro:if>
-
-        <xacro:unless value="$(arg is_ignition)">
-            <hardware>
-                <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-            </hardware>
-        </xacro:unless>
+        <hardware>
+            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </hardware>
 
         <joint name="wheel_right_joint">
             <command_interface name="velocity">
