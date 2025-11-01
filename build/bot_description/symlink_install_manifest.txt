@@ -7,6 +7,7 @@
 /home/mehmet/ros/install/bot_description/share/bot_description/meshes/wheel_right_link.STL
 /home/mehmet/ros/install/bot_description/share/bot_description/urdf/bot.urdf
 /home/mehmet/ros/install/bot_description/share/bot_description/urdf/bot.xacro
+/home/mehmet/ros/install/bot_description/share/bot_description/urdf/bot_control.xacro
 /home/mehmet/ros/install/bot_description/share/bot_description/urdf/bot_gazebo.xacro
 /home/mehmet/ros/install/bot_description/share/bot_description/rviz_model/display.rviz
 /home/mehmet/ros/install/bot_description/share/bot_description/launch/display.launch.py
