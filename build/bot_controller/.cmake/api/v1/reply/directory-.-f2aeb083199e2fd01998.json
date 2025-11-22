@@ -229,8 +229,7 @@
 			"destination" : "share/bot_controller",
 			"paths" : 
 			[
-				"config",
-				"launch"
+				"config"
 			],
 			"type" : "directory"
 		},
