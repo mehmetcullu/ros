@@ -43,10 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bot_controller" TYPE DIRECTORY FILES
-    "/home/mehmet/ros/src/bot_controller/config"
-    "/home/mehmet/ros/src/bot_controller/launch"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bot_controller" TYPE DIRECTORY FILES "/home/mehmet/ros/src/bot_controller/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
