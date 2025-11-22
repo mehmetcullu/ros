@@ -1,1 +1,1 @@
-/home/mehmet/ros/build/bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bot_description
+robot_state_publisher;rviz2;joint_state_publisher_gui;ros2launch;ros_gz_sim;ign_ros2_control;ament_lint_auto;ament_lint_common
