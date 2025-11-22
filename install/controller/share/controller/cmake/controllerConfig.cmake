@@ -1,1 +1,0 @@
-/home/mehmet/ros/build/controller/ament_cmake_core/controllerConfig.cmake

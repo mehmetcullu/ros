@@ -1,2 +1,0 @@
-Invoking command in '/home/mehmet/ros/build/ros_cpp': /usr/bin/cmake /home/mehmet/ros/src/ros_cpp -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/ros_cpp
-Invoked command in '/home/mehmet/ros/build/ros_cpp' returned '1': /usr/bin/cmake /home/mehmet/ros/src/ros_cpp -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/ros_cpp

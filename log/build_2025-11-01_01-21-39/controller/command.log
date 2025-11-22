@@ -1,1 +1,0 @@
-Invoking command in '/home/mehmet/ros/build/controller': /usr/bin/cmake /home/mehmet/ros/src/controller -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/controller
