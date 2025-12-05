@@ -26,7 +26,8 @@ setup(
         'console_scripts': [
             'publisher = ros_python.publisher:main',
             'subscriber = ros_python.subscriber:main',
-            'parameter = ros_python.parameter:main'
+            'parameter = ros_python.parameter:main',
+            'turtlesim_kinematics = ros_python.turtlesim_kinematics:main'
         ],
     },
 )

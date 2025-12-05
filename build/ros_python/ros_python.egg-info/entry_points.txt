@@ -2,4 +2,5 @@
 parameter = ros_python.parameter:main
 publisher = ros_python.publisher:main
 subscriber = ros_python.subscriber:main
+turtlesim_kinematics = ros_python.turtlesim_kinematics:main
 
