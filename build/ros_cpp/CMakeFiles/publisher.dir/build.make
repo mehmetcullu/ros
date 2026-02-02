@@ -136,7 +136,7 @@ publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtp
 publisher: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 publisher: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-publisher: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+publisher: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 publisher: /opt/ros/humble/lib/librmw.so
 publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

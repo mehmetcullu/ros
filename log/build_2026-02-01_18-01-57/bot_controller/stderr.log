@@ -1,0 +1,14 @@
+[31mCMake Error at CMakeLists.txt:9 (find_package):
+  find_package called with invalid argument "python"
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+  ament_python_install_package() the Python package folder
+  '/home/mehmet/ros/src/bot_controller/$(PROJECT_NAME)' doesn't contain an
+  '__init__.py' file
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:14 (ament_python_install_package)
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -27,7 +27,8 @@ setup(
             'publisher = ros_python.publisher:main',
             'subscriber = ros_python.subscriber:main',
             'parameter = ros_python.parameter:main',
-            'turtlesim_kinematics = ros_python.turtlesim_kinematics:main'
+            'turtlesim_kinematics = ros_python.turtlesim_kinematics:main',
+            'tf_kinematics = ros_python.tf_kinematics:main'
         ],
     },
 )
