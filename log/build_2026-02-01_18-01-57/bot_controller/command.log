@@ -1,2 +1,0 @@
-Invoking command in '/home/mehmet/ros/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/ros/build/bot_controller -- -j16 -l16
-Invoked command in '/home/mehmet/ros/build/bot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/ros/build/bot_controller -- -j16 -l16

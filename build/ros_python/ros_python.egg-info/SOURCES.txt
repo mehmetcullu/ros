@@ -12,6 +12,8 @@ resource/ros_python
 ros_python/__init__.py
 ros_python/parameter.py
 ros_python/publisher.py
+ros_python/service_client.py
+ros_python/service_server.py
 ros_python/subscriber.py
 ros_python/tf_kinematics.py
 ros_python/turtlesim_kinematics.py

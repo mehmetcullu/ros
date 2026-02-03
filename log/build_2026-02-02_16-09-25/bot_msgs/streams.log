@@ -1,0 +1,162 @@
+[0.010s] Invoking command in '/home/mehmet/ros/build/bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/ros/build/bot_msgs -- -j16 -l16
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_generator_c[0m
+[0.043s] [  6%] Built target bot_msgs__cpp
+[0.043s] [ 12%] Built target bot_msgs__rosidl_generator_c
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_cpp[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_introspection_c[0m
+[0.049s] [ 12%] Built target ament_cmake_python_copy_bot_msgs
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_c[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.056s] [ 22%] Built target bot_msgs__rosidl_typesupport_cpp
+[0.056s] [ 32%] Built target bot_msgs__rosidl_typesupport_c
+[0.058s] [ 51%] Built target bot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.058s] [ 51%] Built target bot_msgs__rosidl_typesupport_introspection_cpp
+[0.058s] [ 61%] Built target bot_msgs__rosidl_typesupport_introspection_c
+[0.063s] [ 70%] Built target bot_msgs__rosidl_typesupport_fastrtps_c
+[0.080s] [ 70%] Built target bot_msgs
+[0.095s] [ 74%] Built target bot_msgs__py
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_generator_py[0m
+[0.114s] [ 80%] Built target bot_msgs__rosidl_generator_py
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_c__pyext[0m
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target bot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.132s] [ 87%] Built target bot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.133s] [ 93%] Built target bot_msgs__rosidl_typesupport_c__pyext
+[0.133s] [100%] Built target bot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.217s] running egg_info
+[0.217s] writing bot_msgs.egg-info/PKG-INFO
+[0.218s] writing dependency_links to bot_msgs.egg-info/dependency_links.txt
+[0.218s] writing top-level names to bot_msgs.egg-info/top_level.txt
+[0.219s] reading manifest file 'bot_msgs.egg-info/SOURCES.txt'
+[0.219s] writing manifest file 'bot_msgs.egg-info/SOURCES.txt'
+[0.239s] [100%] Built target ament_cmake_python_build_bot_msgs_egg
+[0.248s] Invoked command in '/home/mehmet/ros/build/bot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/ros/build/bot_msgs -- -j16 -l16
+[0.255s] Invoking command in '/home/mehmet/ros/build/bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mehmet/ros/build/bot_msgs
+[0.261s] -- Install configuration: ""
+[0.261s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/ament_index/resource_index/rosidl_interfaces/bot_msgs
+[0.261s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.261s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/add_two_ints.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__functions.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__type_support.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__functions.c
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__struct.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/library_path.sh
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/library_path.dsv
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_generator_c.so
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_fastrtps_c.so
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail
+[0.262s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__struct.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__traits.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__builder.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__type_support.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/add_two_ints.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/dds_fastrtps
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__type_support.c
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_introspection_c.so
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_c.so
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/include/bot_msgs/bot_msgs/srv/detail/add_two_ints__type_support.cpp
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_introspection_cpp.so
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_cpp.so
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/pythonpath.sh
+[0.263s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/pythonpath.dsv
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info
+[0.264s] -- Installing: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.264s] -- Installing: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.264s] -- Installing: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.264s] -- Installing: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/srv
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/srv/__init__.py
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/srv/_add_two_ints.py
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/srv/_add_two_ints_s.c
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/libbot_msgs__rosidl_generator_py.so
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/__init__.py
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_c.c
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.264s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.285s] Listing '/home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs'...
+[0.285s] Listing '/home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/srv'...
+[0.288s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.288s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/lib/libbot_msgs__rosidl_generator_py.so
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/srv/AddTwoInts.idl
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/srv/AddTwoInts.srv
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/srv/AddTwoInts_Request.msg
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/srv/AddTwoInts_Response.msg
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/ament_index/resource_index/package_run_dependencies/bot_msgs
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/ament_index/resource_index/parent_prefix_path/bot_msgs
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/path.sh
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/environment/path.dsv
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/local_setup.bash
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/local_setup.sh
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/local_setup.zsh
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/local_setup.dsv
+[0.289s] -- Installing: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/package.dsv
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/ament_index/resource_index/packages/bot_msgs
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cExport.cmake
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.289s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cppExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cppExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_pyExport.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgsConfig.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/cmake/bot_msgsConfig-version.cmake
+[0.290s] -- Up-to-date: /home/mehmet/ros/install/bot_msgs/share/bot_msgs/package.xml
+[0.292s] Invoked command in '/home/mehmet/ros/build/bot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mehmet/ros/build/bot_msgs

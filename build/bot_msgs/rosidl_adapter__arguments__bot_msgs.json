@@ -1,0 +1,6 @@
+{
+  "package_name": "bot_msgs",
+  "non_idl_tuples": [
+    "/home/mehmet/ros/src/bot_msgs:srv/AddTwoInts.srv"
+  ]
+}

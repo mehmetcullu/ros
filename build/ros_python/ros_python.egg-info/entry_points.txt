@@ -1,6 +1,8 @@
 [console_scripts]
 parameter = ros_python.parameter:main
 publisher = ros_python.publisher:main
+service_client = ros_python.service_client:main
+service_server = ros_python.service_server:main
 subscriber = ros_python.subscriber:main
 tf_kinematics = ros_python.tf_kinematics:main
 turtlesim_kinematics = ros_python.turtlesim_kinematics:main
