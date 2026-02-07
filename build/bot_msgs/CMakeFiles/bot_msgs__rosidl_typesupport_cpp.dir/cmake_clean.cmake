@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_msgs/srv/add_two_ints__type_support.cpp.o"
   "CMakeFiles/bot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_msgs/srv/add_two_ints__type_support.cpp.o.d"
+  "CMakeFiles/bot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_msgs/srv/get_transform__type_support.cpp.o"
+  "CMakeFiles/bot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_msgs/srv/get_transform__type_support.cpp.o.d"
   "libbot_msgs__rosidl_typesupport_cpp.pdb"
   "libbot_msgs__rosidl_typesupport_cpp.so"
   "rosidl_typesupport_cpp/bot_msgs/srv/add_two_ints__type_support.cpp"
+  "rosidl_typesupport_cpp/bot_msgs/srv/get_transform__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

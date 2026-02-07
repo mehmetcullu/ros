@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/srv/__init__.py" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/srv/_add_two_ints.py" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/srv/_add_two_ints_s.c" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/srv/_get_transform.py" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/srv/_get_transform_s.c" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_py/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

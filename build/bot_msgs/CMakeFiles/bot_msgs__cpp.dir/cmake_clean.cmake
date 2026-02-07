@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__struct.hpp"
   "rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__traits.hpp"
   "rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__type_support.hpp"
+  "rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__builder.hpp"
+  "rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__struct.hpp"
+  "rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__traits.hpp"
+  "rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__type_support.hpp"
+  "rosidl_generator_cpp/bot_msgs/srv/get_transform.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

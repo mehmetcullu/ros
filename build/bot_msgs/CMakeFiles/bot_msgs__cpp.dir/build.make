@@ -71,6 +71,11 @@ CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints_
 CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__struct.hpp
 CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__traits.hpp
 CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__type_support.hpp
+CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/get_transform.hpp
+CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__builder.hpp
+CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__struct.hpp
+CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__traits.hpp
+CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__type_support.hpp
 CMakeFiles/bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/rosidl
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: rosidl_adapter/bot_msgs/srv/AddTwoInts.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: rosidl_adapter/bot_msgs/srv/GetTransform.idl
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -121,6 +127,38 @@ rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/std_ms
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mehmet/ros/build/bot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp__arguments.json
 
@@ -136,12 +174,32 @@ rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__traits.hpp: rosidl_genera
 rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__type_support.hpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__type_support.hpp
 
+rosidl_generator_cpp/bot_msgs/srv/get_transform.hpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_msgs/srv/get_transform.hpp
+
+rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__builder.hpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__builder.hpp
+
+rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__struct.hpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__struct.hpp
+
+rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__traits.hpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__traits.hpp
+
+rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__type_support.hpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__type_support.hpp
+
 bot_msgs__cpp: CMakeFiles/bot_msgs__cpp
 bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp
 bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__builder.hpp
 bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__struct.hpp
 bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__traits.hpp
 bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__type_support.hpp
+bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__builder.hpp
+bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__struct.hpp
+bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__traits.hpp
+bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__type_support.hpp
+bot_msgs__cpp: rosidl_generator_cpp/bot_msgs/srv/get_transform.hpp
 bot_msgs__cpp: CMakeFiles/bot_msgs__cpp.dir/build.make
 .PHONY : bot_msgs__cpp
 

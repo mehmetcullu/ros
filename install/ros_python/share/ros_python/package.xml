@@ -12,6 +12,7 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>turtlesim</exec_depend>
   <exec_depend>tf2</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
   <exec_depend>geometry.msgs</exec_depend>
   <exec_depend>bot_msgs</exec_depend>
 

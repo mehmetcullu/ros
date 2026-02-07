@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/bot_msgs/srv/__init__.py"
   "../rosidl_generator_py/bot_msgs/srv/_add_two_ints.py"
   "../rosidl_generator_py/bot_msgs/srv/_add_two_ints_s.c"
+  "../rosidl_generator_py/bot_msgs/srv/_get_transform.py"
+  "../rosidl_generator_py/bot_msgs/srv/_get_transform_s.c"
   "CMakeFiles/bot_msgs__py"
 )
 

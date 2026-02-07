@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_msgs/srv/detail/add_two_ints__type_support.c.o"
   "CMakeFiles/bot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_msgs/srv/detail/add_two_ints__type_support.c.o.d"
+  "CMakeFiles/bot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_msgs/srv/detail/get_transform__type_support.c.o"
+  "CMakeFiles/bot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_msgs/srv/detail/get_transform__type_support.c.o.d"
   "libbot_msgs__rosidl_typesupport_introspection_c.pdb"
   "libbot_msgs__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/bot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/bot_msgs/srv/detail/add_two_ints__type_support.c"
+  "rosidl_typesupport_introspection_c/bot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/bot_msgs/srv/detail/get_transform__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

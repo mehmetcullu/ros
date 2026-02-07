@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__struct.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
   "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__traits.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
   "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/add_two_ints__type_support.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__builder.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__struct.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__traits.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/detail/get_transform__type_support.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
+  "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/get_transform.hpp" "/home/mehmet/ros/build/bot_msgs/rosidl_generator_cpp/bot_msgs/srv/add_two_ints.hpp"
   )
 
 
