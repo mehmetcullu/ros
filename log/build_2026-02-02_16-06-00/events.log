@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000112] (-) JobUnselected: {'identifier': 'bot_controller'}
-[0.000127] (-) JobUnselected: {'identifier': 'bot_description'}
-[0.000136] (-) JobUnselected: {'identifier': 'bot_msgs'}
-[0.000144] (-) JobUnselected: {'identifier': 'ros_cpp'}
-[0.000154] (ros_python) JobQueued: {'identifier': 'ros_python', 'dependencies': OrderedDict([('bot_msgs', '/home/mehmet/ros/install/bot_msgs')])}
-[0.000502] (ros_python) JobStarted: {'identifier': 'ros_python'}
-[0.003556] (ros_python) JobEnded: {'identifier': 'ros_python', 'rc': 1}
-[0.013926] (-) EventReactorShutdown: {}

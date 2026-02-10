@@ -1,0 +1,61 @@
+[0.793s] Invoking command in '/home/mehmet/ros/src/ros_python': AMENT_PREFIX_PATH=/home/mehmet/ros/install/bot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehmet/ros/install/bot_msgs LD_LIBRARY_PATH=/home/mehmet/ros/install/bot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehmet/ros/build/ros_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehmet/ros/install/ros_python/lib/python3.10/site-packages:/home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_python build --build-base /home/mehmet/ros/build/ros_python/build install --record /home/mehmet/ros/build/ros_python/install.log --single-version-externally-managed install_data
+[1.074s] running egg_info
+[1.075s] creating ../../build/ros_python/ros_python.egg-info
+[1.075s] writing ../../build/ros_python/ros_python.egg-info/PKG-INFO
+[1.076s] writing dependency_links to ../../build/ros_python/ros_python.egg-info/dependency_links.txt
+[1.076s] writing entry points to ../../build/ros_python/ros_python.egg-info/entry_points.txt
+[1.076s] writing requirements to ../../build/ros_python/ros_python.egg-info/requires.txt
+[1.076s] writing top-level names to ../../build/ros_python/ros_python.egg-info/top_level.txt
+[1.076s] writing manifest file '../../build/ros_python/ros_python.egg-info/SOURCES.txt'
+[1.079s] reading manifest file '../../build/ros_python/ros_python.egg-info/SOURCES.txt'
+[1.079s] writing manifest file '../../build/ros_python/ros_python.egg-info/SOURCES.txt'
+[1.080s] running build
+[1.080s] running build_py
+[1.080s] creating /home/mehmet/ros/build/ros_python/build
+[1.080s] creating /home/mehmet/ros/build/ros_python/build/lib
+[1.080s] creating /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/publisher.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/turtlesim_kinematics.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/tf_kinematics.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/parameter.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/service_client.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/__init__.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.080s] copying ros_python/service_server.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.081s] copying ros_python/subscriber.py -> /home/mehmet/ros/build/ros_python/build/lib/ros_python
+[1.081s] running install
+[1.081s] running install_lib
+[1.083s] creating /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/publisher.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/turtlesim_kinematics.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/tf_kinematics.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/parameter.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/service_client.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/__init__.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/service_server.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.083s] copying /home/mehmet/ros/build/ros_python/build/lib/ros_python/subscriber.py -> /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python
+[1.084s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/publisher.py to publisher.cpython-310.pyc
+[1.084s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/turtlesim_kinematics.py to turtlesim_kinematics.cpython-310.pyc
+[1.085s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/tf_kinematics.py to tf_kinematics.cpython-310.pyc
+[1.085s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/parameter.py to parameter.cpython-310.pyc
+[1.086s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/service_client.py to service_client.cpython-310.pyc
+[1.086s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/__init__.py to __init__.cpython-310.pyc
+[1.086s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/service_server.py to service_server.cpython-310.pyc
+[1.087s] byte-compiling /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python/subscriber.py to subscriber.cpython-310.pyc
+[1.087s] running install_data
+[1.087s] creating /home/mehmet/ros/install/ros_python/share/ament_index
+[1.087s] creating /home/mehmet/ros/install/ros_python/share/ament_index/resource_index
+[1.087s] creating /home/mehmet/ros/install/ros_python/share/ament_index/resource_index/packages
+[1.087s] copying resource/ros_python -> /home/mehmet/ros/install/ros_python/share/ament_index/resource_index/packages
+[1.087s] copying package.xml -> /home/mehmet/ros/install/ros_python/share/ros_python
+[1.088s] running install_egg_info
+[1.090s] Copying ../../build/ros_python/ros_python.egg-info to /home/mehmet/ros/install/ros_python/lib/python3.10/site-packages/ros_python-0.0.0-py3.10.egg-info
+[1.091s] running install_scripts
+[1.117s] Installing parameter script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.117s] Installing publisher script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.118s] Installing service_client script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.118s] Installing service_server script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.118s] Installing subscriber script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.118s] Installing tf_kinematics script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.118s] Installing turtlesim_kinematics script to /home/mehmet/ros/install/ros_python/lib/ros_python
+[1.118s] writing list of installed files to '/home/mehmet/ros/build/ros_python/install.log'
+[1.156s] Invoked command in '/home/mehmet/ros/src/ros_python' returned '0': AMENT_PREFIX_PATH=/home/mehmet/ros/install/bot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehmet/ros/install/bot_msgs LD_LIBRARY_PATH=/home/mehmet/ros/install/bot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehmet/ros/build/ros_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehmet/ros/install/ros_python/lib/python3.10/site-packages:/home/mehmet/ros/install/bot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_python build --build-base /home/mehmet/ros/build/ros_python/build install --record /home/mehmet/ros/build/ros_python/install.log --single-version-externally-managed install_data
