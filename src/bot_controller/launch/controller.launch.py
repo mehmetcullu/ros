@@ -20,7 +20,8 @@ def generate_launch_description():
 
     controller_params = [{
         "wheel_radius": wheel_radius,
-        "wheel_separation": wheel_separation
+        "wheel_separation": wheel_separation,
+        "use_sim_time": True
     }]
     
     #... here purpose is making portable code for other vehicles
@@ -63,15 +64,14 @@ def generate_launch_description():
                 package= "bot_controller",
                 executable= "simple_controller.py",
                 parameters=controller_params,
-                condition=IfCondition(use_python)                
+                condition= IfCondition(use_python)         
             ),
-
+            
             Node(
                 package= "bot_controller",
                 executable= "simple_controller",
                 parameters=controller_params,
-                condition=UnlessCondition(use_python)
-                
+                condition= UnlessCondition(use_python)            
             )
         ]
     )

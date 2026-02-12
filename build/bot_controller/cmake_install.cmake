@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bot_controller" TYPE PROGRAM FILES "/home/mehmet/ros/src/bot_controller/bot_controller/simple_controller.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bot_controller" TYPE PROGRAM RENAME "simple_controller.py" FILES "/home/mehmet/ros/src/bot_controller/bot_controller/simple_controller.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

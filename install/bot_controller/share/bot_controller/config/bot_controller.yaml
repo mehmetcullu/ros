@@ -1,6 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 100
+    update_rate: 1000
     use_sim_time: true
 
     joint_state_broadcaster:
@@ -19,8 +19,8 @@ joint_state_broadcaster:
 simple_velocity_controller:
   ros__parameters:
     joints:
-      - wheel_left_joint
       - wheel_right_joint
+      - wheel_left_joint
 
 bot_controller:
   ros__parameters:

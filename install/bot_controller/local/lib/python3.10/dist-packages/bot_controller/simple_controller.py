@@ -26,6 +26,8 @@ class SimpleController(Node):
         self.right_wheel_prev_pos_ = 0.0
         self.left_wheel_prev_pos_ = 0.0
         self.prev_time_ = self.get_clock().now()
+        #BURASI
+        self.initialized_ = False
 
         # Publisher ve Subscriber
         self.wheel_cmd_pub_ = self.create_publisher(Float64MultiArray, "simple_velocity_controller/commands", 10)
@@ -52,58 +54,43 @@ class SimpleController(Node):
         self.wheel_cmd_pub_.publish(wheel_speed_msg)
 
     def jointCallback(self, msg):
-        # Zaman farkı (dt)
+        # 2. Zaman farkı kontrolü
         curr_time = Time.from_msg(msg.header.stamp)
-        dt = (curr_time - self.prev_time_).nanoseconds / S_TO_NS
+        duration = curr_time - self.prev_time_
+        dt = duration.nanoseconds / 1e9 # Doğrudan float bölmesi
 
-        if dt <= 0:
+        if dt <= 0.0001: # Çok küçük veya sıfır dt'yi engelle
             return
 
-        # Pozisyon farkları (radyan)
+        # 3. Pozisyon farkları
         dp_left = msg.position[1] - self.left_wheel_prev_pos_
         dp_right = msg.position[0] - self.right_wheel_prev_pos_
 
-        # Tekerlek hızları (rad/s)
+        # 4. Hız hesaplama (Sen acc demene rağmen bunlar aslında omega/hız)
         omega_left = dp_left / dt
         omega_right = dp_right / dt
 
-        # Yeni pozisyonları ve zamanı güncelle
+        # 5. İleri Kinematik
+        linear_vel = (self.wheel_radius * (omega_right + omega_left)) / 2.0
+        angular_vel = (self.wheel_radius * (omega_right - omega_left)) / self.wheel_separation
+
+        # Güncellemeler
         self.left_wheel_prev_pos_ = msg.position[1]
         self.right_wheel_prev_pos_ = msg.position[0]
         self.prev_time_ = curr_time
 
-        # İleri Kinematik (Robot hızlarını hesapla)
-        linear_vel = (self.wheel_radius * (omega_right + omega_left)) / 2.0
-        angular_vel = (self.wheel_radius * (omega_right - omega_left)) / self.wheel_separation
-
-        self.get_logger().info("Linear: %f, Angular: %f" % (linear_vel, angular_vel))
-
-    #hız farkı/ zaman farkı ,
-    def jointCallback(self, msg):
-        dp_left_ = msg.position[1] - self.left_wheel_prev_pos_
-        dp_right_ = msg.position[0] - self.right_wheel_prev_pos_
-        dt = Time.from_msg(msg.header.stamp) - self.prev_time_
-
-        #Update new positions
-        self.left_wheel_prev_pos_ = msg.position[1]
-        self.right_wheel_prev_pos_ = msg.position[0]
-        self.prev_time_ = Time.from_msg(msg.header.stamp)
-
-        acc_left =dp_left_ / (dt.nanoseconds / S_TO_NS)
-        acc_right =dp_right_ / (dt.nanoseconds / S_TO_NS)
-
-        #calculate linear and angular velocity
-        linear_vel= (self.wheel_radius * acc_right + self.wheel_radius * acc_left) / 2 
-        angular_vel= (self.wheel_radius * acc_right + self.wheel_radius * acc_left) / self.wheel_separation
-
-        self.get_logger().info("Linear velocity: %s \n Angular velocity: %s" % (linear_vel, angular_vel))
+        self.get_logger().info(f"Linear: {linear_vel:.4f}, Angular: {angular_vel:.4f}")
 
 def main():
     rclpy.init()
     simple_controller=SimpleController()
-    rclpy.spin(simple_controller)
-    simple_controller.destroy_node()
-    rclpy.shutdown
+    try:
+        rclpy.spin(simple_controller)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        simple_controller.destroy_node()
+        rclpy.shutdown()
 
 if __name__=='__main__':
     main()

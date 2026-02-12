@@ -1,1 +1,1 @@
-controller_manager:eigen:geometry_msgs:rclcpp:rclpy:ros2launch:sensor_msgs:std_msgs
+controller_manager:diff_drive_controller:geometry_msgs:joint_state_broadcaster:rclpy:ros2launch:sensor_msgs:std_msgs:velocity_controllers

@@ -12,8 +12,6 @@ find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(Eigen3 REQUIRED)
 
 
 ament_python_install_package(${PROJECT_NAME})
@@ -24,10 +22,10 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
-
 install(PROGRAMS
   ${PROJECT_NAME}/simple_controller.py
   DESTINATION lib/${PROJECT_NAME}
+  RENAME simple_controller.py  # İsmi garantiye alalım
 )
 
 if(BUILD_TESTING)
