@@ -136,7 +136,7 @@ subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrt
 subscriber: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 subscriber: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-subscriber: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+subscriber: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 subscriber: /opt/ros/humble/lib/librmw.so
 subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

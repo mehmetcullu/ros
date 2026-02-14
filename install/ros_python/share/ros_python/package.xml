@@ -9,7 +9,12 @@
 
   <exec_depend>rclpy</exec_depend>
   <exec_depend>rcl_interfaces</exec_depend>
-  <exec_depend>std.msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+  <exec_depend>geometry.msgs</exec_depend>
+  <exec_depend>bot_msgs</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

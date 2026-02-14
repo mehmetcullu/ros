@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bot_msgs__py",
+		"source" : "/home/mehmet/ros/build/bot_msgs/bot_msgs__py"
+	}
+}
