@@ -44,11 +44,11 @@ def generate_launch_description():
             "--controller-manager",
             "/controller_manager"
         ],
-        condition=UnlessCondition(use_simple_controller)
+        condition=IfCondition(use_simple_controller)
     )
     
     simple_controller = GroupAction(
-        condition= IfCondition(use_simple_controller),
+        condition= UnlessCondition(use_simple_controller),
         actions=[
             Node(
                 package="controller_manager",

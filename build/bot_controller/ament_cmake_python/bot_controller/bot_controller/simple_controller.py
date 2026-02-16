@@ -120,19 +120,19 @@ class SimpleController(Node):
         self.odom_msg_.twist.twist.linear.x= linear_vel
         self.odom_msg_.twist.twist.angular.z= angular_vel
 
-        self.tf_stamped_.transform.translation.x= self.x
-        self.tf_stamped_.transform.translation.y= self.y
-        self.tf_stamped_.transform.rotation.x= self.q[0]
-        self.tf_stamped_.transform.rotation.y= self.q[1]
-        self.tf_stamped_.transform.rotation.z= self.q[2]
-        self.tf_stamped_.transform.rotation.w= self.q[3]
+        self.tf_stamped_.transform.translation.x= self.x_
+        self.tf_stamped_.transform.translation.y= self.y_
+        self.tf_stamped_.transform.rotation.x= q[0]
+        self.tf_stamped_.transform.rotation.y= q[1]
+        self.tf_stamped_.transform.rotation.z= q[2]
+        self.tf_stamped_.transform.rotation.w= q[3]
         self.tf_stamped_.header.stamp= self.get_clock().now().to_msg()        
 
         self.get_logger().info(f"Linear: {linear_vel:.4f}, Angular: {angular_vel:.4f}")
         self.get_logger().info(f"x: {self.x_:.4f}, y: {self.y_:.4f}, theta: {self.theta_:.4f}")
         
         self.odom_pub_.publish(self.odom_msg_)
-        self.br_.sendTransform(self.tf_stamped_.header.stamp)
+        self.br_.sendTransform(self.tf_stamped_)
 
 def main():
     rclpy.init()
