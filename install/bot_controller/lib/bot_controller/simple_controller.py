@@ -3,13 +3,15 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
-from geometry_msgs.msg import TwistStamped
+from geometry_msgs.msg import TwistStamped, TransformStamped
 from sensor_msgs.msg import JointState
 from rclpy.time import Time
 from rclpy.constants import S_TO_NS
 from nav_msgs.msg import Odometry
 import math
 from tf_transformations import quaternion_from_euler
+from tf2_ros import TransformBroadcaster
+
 
 class SimpleController(Node):
     def __init__(self):
@@ -50,6 +52,10 @@ class SimpleController(Node):
         self.odom_msg_.pose.pose.orientation.z = 0.0
         self.odom_msg_.pose.pose.orientation.w = 1.0
 
+        self.br_ = TransformBroadcaster(self)
+        self.tf_stamped_=TransformStamped()
+        self.tf_stamped_.header.frame_id= "odom"
+        self.tf_stamped_.child_frame_id= "base_footprint"
 
     def velCallback(self, msg):
         # Diferansiyel Sürüş Ters Kinematiği (NumPy Olmadan)
@@ -114,10 +120,19 @@ class SimpleController(Node):
         self.odom_msg_.twist.twist.linear.x= linear_vel
         self.odom_msg_.twist.twist.angular.z= angular_vel
 
-        self.odom_pub_.publish(self.odom_msg_)
+        self.tf_stamped_.transform.translation.x= self.x
+        self.tf_stamped_.transform.translation.y= self.y
+        self.tf_stamped_.transform.rotation.x= self.q[0]
+        self.tf_stamped_.transform.rotation.y= self.q[1]
+        self.tf_stamped_.transform.rotation.z= self.q[2]
+        self.tf_stamped_.transform.rotation.w= self.q[3]
+        self.tf_stamped_.header.stamp= self.get_clock().now().to_msg()        
 
         self.get_logger().info(f"Linear: {linear_vel:.4f}, Angular: {angular_vel:.4f}")
         self.get_logger().info(f"x: {self.x_:.4f}, y: {self.y_:.4f}, theta: {self.theta_:.4f}")
+        
+        self.odom_pub_.publish(self.odom_msg_)
+        self.br_.sendTransform(self.tf_stamped_.header.stamp)
 
 def main():
     rclpy.init()

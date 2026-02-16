@@ -1,0 +1,97 @@
+[0.008s] Invoking command in '/home/mehmet/ros/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mehmet/ros/src/bot_controller -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/bot_controller
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.376s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.435s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.544s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.608s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.609s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.631s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.634s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.676s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.685s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.697s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.709s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.753s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.755s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.835s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Looking for pthread.h
+[0.917s] -- Looking for pthread.h - found
+[0.917s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.970s] -- Found Threads: TRUE  
+[1.124s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.203s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.204s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.204s] -- Added test 'lint_cmake' to check CMake code style
+[1.205s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.205s] -- Added test 'xmllint' to check XML markup files
+[1.206s] -- Configuring done
+[1.209s] -- Generating done
+[1.211s] -- Build files have been written to: /home/mehmet/ros/build/bot_controller
+[1.219s] Invoked command in '/home/mehmet/ros/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mehmet/ros/src/bot_controller -DCMAKE_INSTALL_PREFIX=/home/mehmet/ros/install/bot_controller
+[1.220s] Invoking command in '/home/mehmet/ros/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/ros/build/bot_controller -- -j16 -l16
+[1.259s] Built target ament_cmake_python_copy_bot_controller
+[1.435s] running egg_info
+[1.436s] creating bot_controller.egg-info
+[1.436s] writing bot_controller.egg-info/PKG-INFO
+[1.436s] writing dependency_links to bot_controller.egg-info/dependency_links.txt
+[1.436s] writing top-level names to bot_controller.egg-info/top_level.txt
+[1.436s] writing manifest file 'bot_controller.egg-info/SOURCES.txt'
+[1.440s] reading manifest file 'bot_controller.egg-info/SOURCES.txt'
+[1.440s] writing manifest file 'bot_controller.egg-info/SOURCES.txt'
+[1.470s] Built target ament_cmake_python_build_bot_controller_egg
+[1.479s] Invoked command in '/home/mehmet/ros/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/ros/build/bot_controller -- -j16 -l16
+[1.481s] Invoking command in '/home/mehmet/ros/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mehmet/ros/build/bot_controller
+[1.487s] -- Install configuration: ""
+[1.487s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/environment/pythonpath.sh
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/environment/pythonpath.dsv
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/simple_controller.py
+[1.488s] -- Installing: /home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/__init__.py
+[1.514s] Listing '/home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller'...
+[1.514s] Compiling '/home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/__init__.py'...
+[1.515s] Compiling '/home/mehmet/ros/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/simple_controller.py'...
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/config
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/config/stick_config.yaml
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/config/bot_controller.yaml
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/config/stick_teleop.yaml
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/launch
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/launch/controller.launch.py
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/launch/joystick.launch.py
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/lib/bot_controller/simple_controller.py
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh
+[1.519s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/environment/path.sh
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/environment/path.dsv
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/local_setup.bash
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/local_setup.sh
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/local_setup.zsh
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/local_setup.dsv
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/package.dsv
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/ament_index/resource_index/packages/bot_controller
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake
+[1.520s] -- Installing: /home/mehmet/ros/install/bot_controller/share/bot_controller/package.xml
+[1.522s] Invoked command in '/home/mehmet/ros/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mehmet/ros/build/bot_controller
